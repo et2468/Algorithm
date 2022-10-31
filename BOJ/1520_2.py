@@ -18,7 +18,6 @@ cnt = 0
 record = [[0]*N for _ in range(M)]
 record[-1][-1] = 1
 visited = [[0]*N for _ in range(M)]
-visited2 = []
 delta = [(0,1),(0,-1),(1,0),(-1,0)]
 i,j,idx =0,0,0
 stack = [(0,0,0)]
